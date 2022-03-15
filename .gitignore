@@ -1,2 +1,3 @@
 /Dataset-ignore/*
+!/Dataset-ignore/README.md
 *.pyc
