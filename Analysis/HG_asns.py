@@ -2,7 +2,7 @@ import json
 from unicodedata import name
 
 
-def HG_asns(input_file: str, output_file: str, HG_list: list(str)):
+def HG_asns(input_file, output_file, HG_list):
     """
         produce a .json file containing for each HG keyword in HG_list, their orgId and their ASNs
         ARGS: input_file_name is the name of the CAIDA dataset file containing the worlds' ASNs
@@ -13,7 +13,7 @@ def HG_asns(input_file: str, output_file: str, HG_list: list(str)):
     for HG in HG_list:
         HG_id = set()
 
-        with open(input_file, "rt") as file:
+        with open(input_file, "rt", encoding="utf8") as file:
             for line in file:
                 data = json.loads(line)
 
@@ -25,7 +25,7 @@ def HG_asns(input_file: str, output_file: str, HG_list: list(str)):
                     pass
 
         HG_asns = set()
-        with open(input_file, "rt") as file:
+        with open(input_file, "rt", encoding="utf8") as file:
             for line in file:
                 data = json.loads(line)
 
@@ -37,11 +37,11 @@ def HG_asns(input_file: str, output_file: str, HG_list: list(str)):
                     pass
         fulljson[HG] = {"asns": list(HG_asns), "orgId": list(HG_id)}
 
-    with open(f"{output_file}", "wt") as file:
+    with open(output_file, "wt", encoding="utf8") as file:
         json.dump(fulljson, file, indent=4)
 
 
-def get_HG_asns(input_file_name: str, save_file_name: str, HG_kw_list: list(str)):
+def get_HG_asns(input_file_name, save_file_name, HG_kw_list):
     """
         opens save_file_name if it exists or creates it with function:HG_asns and returns json obj.
         ARGS: save_file_name is the name of the CAIDA dataset file containing the worlds' ASNs
@@ -49,13 +49,16 @@ def get_HG_asns(input_file_name: str, save_file_name: str, HG_kw_list: list(str)
               HG_kw_list is the list of the HG's keywords (eg. "GOOGLE" or "YAHOO")
     """
     try:
-        with open(save_file_name, "rt") as file:
+        with open(save_file_name, "rt", encoding="utf8") as file:
+            print("HG's ASNs file found.")
             return json.load(file)
     except:
         HG_asns(input_file_name, save_file_name, HG_kw_list)
-        with open(save_file_name, "rt") as file:
+        with open(save_file_name, "rt", encoding="utf8") as file:
+            print("Creating HGs' ASNs list file.")
             return json.load(file)
 
 
 if __name__ == "__main__":
-    HG_asns("20220101.as-org2info.jsonl", "test.json", ["YAHOO", "GOOGLE"])
+    HG_asns("20220101.as-org2info.jsonl", "test.json",
+            ["YAHOO", "GOOGLE", "FACEBOOK", "NETFLIX", "AKAMAI", "MICROSOFT"])

@@ -27,10 +27,12 @@ def get_asn_to_kw(hg_asns_file: str, output_file_name: str):
     """
     try:
         with open(output_file_name, "rt") as file:
+            print("HG ASNs to keyword mapping found.")
             return json.load(file)
     except:
         asn_to_kw(hg_asns_file, output_file_name)
         with open(output_file_name, "rt") as file:
+            print("Creating HG ASNs to keyword mapping file.")
             return json.load(file)
 
 
