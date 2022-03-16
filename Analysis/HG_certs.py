@@ -1,4 +1,6 @@
+from doctest import OutputChecker
 import pytricia
+import os
 from asn_to_HG_keyword import *
 from HG_asns import *
 
@@ -18,7 +20,8 @@ def load_ip_to_as_mapping(filename):
     return pyt
 
 
-def get_HG_certs(certs_filename, ip_to_as, hg_asns, asn_to_kw):
+def write_HG_certs(certs_filename, ip_to_as, out_directory, asn_to_kw):
+    out = open(out_directory+"output_active_scan_HG_certs.txt", "w")
     try:
         with open(certs_filename, "rt") as certs_file:
             for line in certs_file:
@@ -26,17 +29,17 @@ def get_HG_certs(certs_filename, ip_to_as, hg_asns, asn_to_kw):
 
                 for ip in data:
                     try:
-                        asn = ip_to_as[ip][0]
+                        asn = str(ip_to_as[ip][0])
                         try:
                             HG = asn_to_kw[asn]
-                            print(HG)
-                            print(data)
+                            out.write(line)
                         except:
-                            pass
+                            continue
                     except:
                         continue
     except:
         print("Could not open certs file.")
+    out.close()
 
 
 if __name__ == "__main__":
@@ -47,7 +50,9 @@ if __name__ == "__main__":
     asns_file = "../Dataset-samples/20220101.as-org2info.jsonl"
     ip_to_as_filename = "../Dataset-samples/ip_to_as_test.json"
 
-    certs_fles_folder = "../Dataset-ignore"
+    certs_fles_folder = "../Dataset-ignore/active_scan/"
+
+    output_directory = "../Dataset-ignore/output/"
 
     get_HG_asns(asns_file, HG_asns_filename, [
                 "YAHOO", "GOOGLE", "FACEBOOK", "NETFLIX", "AKAMAI", "MICROSOFT"])
@@ -62,7 +67,7 @@ if __name__ == "__main__":
     with open(HG_asns_filename, "rt") as file:
         hg_asns = json.load(file)
 
-    for i in range(994, 1000):
-        file = f"{certs_fles_folder}/b_{i}/certs.txt"
-        print(file)
-        get_HG_certs(file, ip_to_as, hg_asns, asn_to_kw)
+    for dir, subdir, files in os.walk(certs_fles_folder):
+        for filename in files:
+            write_HG_certs(dir+"/"+filename, ip_to_as,
+                           output_directory, asn_to_kw)
