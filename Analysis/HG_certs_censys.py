@@ -39,6 +39,10 @@ def write_HG_certs(dataset_dir, out_dir, ip_to_as, asn_to_kw, hg_asns):
                         data = json.loads(line)
 
                         try:
+                            """
+                            getting first thee IP and the corresponding ASN.
+                            Through the CAIDA dataset we get the HG owning that ASN and make its keyword is appearing in the line
+                            """
                             data["subject_dn"]
                             ip = data["ip"]
                             asn = str(ip_to_as[ip][0])
