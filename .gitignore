@@ -1,3 +1,7 @@
 /Dataset-ignore/*
 !/Dataset-ignore/README.md
 *.pyc
+/datasets/tls_scans/*
+/datasets/ip_to_as/*
+/datasets/as_to_organization_info/*
+
