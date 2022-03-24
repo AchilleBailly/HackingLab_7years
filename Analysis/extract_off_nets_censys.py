@@ -3,6 +3,8 @@ import os
 import socket
 import re
 
+from HG_asns import get_HG_asns
+
 
 def is_hostname(dns_name):
     try:
@@ -57,13 +59,15 @@ def calc_TLD_plus_one(dns_name, suffixes):
 
 
 def extract_fingerprint(on_net_dir, suffixes):
+    if on_net_dir[-1] != "/":
+        on_net_dir += "/"
     files = os.listdir(on_net_dir)
 
     dns_to_hg = dict()
 
-    for filenames in files:
-        with open(on_net_dir+files, "rt") as file:
-            hg_keyword = file.split('.')[0]
+    for filename in files:
+        with open(on_net_dir+filename, "rt") as file:
+            hg_keyword = filename.split('.')[0]
             if hg_keyword not in dns_to_hg:
                 dns_to_hg[hg_keyword] = dict()
 
@@ -78,19 +82,19 @@ def extract_fingerprint(on_net_dir, suffixes):
     return dns_to_hg
 
 
-def off_nets(dataset_dir, ip_to_as, hg_asns, dns_to_hg, suffixes, out_dir, on_net_dir):
+def off_nets(dataset_dir, hg_asns, asn_to_hg, on_nets_dir, suffixes, out_dir):
     for dir, _, files in os.walk(dataset_dir):
         if files != []:
             temp = dir.split("/")[-1]
             if not os.path.exists(out_dir+temp):
                 os.makedirs(out_dir+temp)
 
+            dns_to_hg = extract_fingerprint(on_nets_dir+temp, suffixes)
+
             hg_files = dict()
             for hg in hg_asns:
                 hg_files[hg.lower()] = open(
                     out_dir+temp+"/"+hg.lower()+".txt", "wt")
-
-            dns_to_hg = extract_fingerprint(on_net_dir+"/"+temp, suffixes)
 
             for filename in files:
                 print(filename)
@@ -98,15 +102,55 @@ def off_nets(dataset_dir, ip_to_as, hg_asns, dns_to_hg, suffixes, out_dir, on_ne
                     for line in file:
                         data = json.loads(line)
 
-                        for ip in data:
-                            asns = list()
-                            try:
-                                asns = ip_to_as[ip]
-                            except:
-                                pass
+                        ip = data["ip"]
+                        asn = data["asn"]
+                        org = data["org"]
+                        dns_list = data["dns_names"]
 
-                        if len(asns) > 0:
-                            if "subject_dn" in data:
-                                for hg_kw in hg_asns:
-                                    if hg_kw in data["subject_dn"]:
-                                        continue
+                        if len(asn) > 0:
+
+                            for hg_kw in hg_asns:
+                                if hg_kw.lower() in org.lower():
+
+                                    is_on_net = False
+                                    if asn in asn_to_hg:
+                                        if asn_to_hg[asn] in hg_kw:
+                                            is_on_net = True
+
+                                    if not is_on_net:
+                                        for dns in dns_list:
+                                            stript_dns = calc_TLD_plus_one(
+                                                dns, suffixes)
+                                            if stript_dns not in dns_to_hg[hg_kw]:
+                                                continue
+
+                                        to_write = {
+                                            "ip": ip,
+                                            "asn": asn,
+                                            "dns_names": dns_list,
+                                            "org": org
+                                        }
+                                        hg_files[hg_kw].write(
+                                            json.dumps(to_write)+"\n")
+
+            for file in hg_files:
+                hg_files[file].close()
+
+
+if __name__ == "__main__":
+    censys_formatted_dir = "../Dataset-ignore/censys_formatted/"
+    out_dir = "../Dataset-ignore/output/off_nets/"
+    hg_asns_file = "../Dataset-samples/HG_asns.json"
+    asn_to_hg_file = "../Dataset-samples/asn_to_kw2.json"
+    suffixes_file = "../Dataset-samples/suffixes.txt"
+    on_nets_dir = "../Dataset-ignore/output/censys_onnets/"
+
+    suffixes = load_tld_suffixes(suffixes_file)
+    with open(hg_asns_file, "rt") as file:
+        hg_asns = json.load(file)
+
+    with open(asn_to_hg_file, "rt") as file:
+        asn_to_hg = json.load(file)
+
+    off_nets(censys_formatted_dir, hg_asns, asn_to_hg,
+             on_nets_dir, suffixes, out_dir)

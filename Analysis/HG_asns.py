@@ -19,7 +19,7 @@ def HG_asns(input_file, output_file, HG_list):
 
                 try:
                     data["asn"]
-                    if HG in data["name"]:
+                    if HG.lower() in data["name"].lower():
                         HG_id.add(data["organizationId"])
                 except:
                     pass

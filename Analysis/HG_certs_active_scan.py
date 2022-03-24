@@ -3,21 +3,7 @@ import pytricia
 import os
 from asn_to_HG_keyword import *
 from HG_asns import *
-
-from simplejson import load
-
-
-def load_ip_to_as_mapping(filename):
-    pyt = pytricia.PyTricia()
-    try:
-        with open(filename, 'rt') as f:
-            data = json.load(f)
-        for prefix in data:
-            pyt[prefix] = data[prefix]
-    except:
-        print("Couldn't load/process IP-to-AS mapping file \"{}\"".format(filename))
-        return None
-    return pyt
+from utils import load_ip_to_as_mapping
 
 
 def write_HG_certs(certs_filename, ip_to_as, out_directory, asn_to_kw, hg_asns):
