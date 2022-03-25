@@ -38,7 +38,7 @@ def write_HG_certs(dataset_dir, out_dir, asn_to_kw, hg_asns):
                                 nline = {
                                     "ip": ip,
                                     "asn": asn,
-                                    "dns_names": data["names"],
+                                    "dns_names": data["dns_names"],
                                     "org": data["org"]
                                 }
                                 hg_files[HG.lower()].write(

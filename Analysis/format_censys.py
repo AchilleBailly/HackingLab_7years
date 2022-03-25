@@ -11,7 +11,7 @@ def format_censys_file(filename, out_dir, ip_to_as):
     if out_dir[-1] != "/":
         out_dir += "/"
 
-    org_pat = re.compile(r"O=(.*),")
+    org_pat = re.compile(r"O=(.*?),")
     dns_pat = re.compile(r"CN=(.*)")
 
     with open(filename, "rt") as file:

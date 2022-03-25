@@ -74,15 +74,16 @@ def extract_fingerprint(on_net_dir, suffixes):
             for line in file:
                 data = json.loads(line)
 
-                if "dns_name" in data:
-                    for dns in data["dns_name"]:
+                if "dns_names" in data:
+                    for dns in data["dns_names"]:
                         if is_hostname(dns):
-                            data[hg_keyword][calc_TLD_plus_one(
+                            dns_to_hg[hg_keyword][calc_TLD_plus_one(
                                 dns, suffixes)] = None
     return dns_to_hg
 
 
 def off_nets(dataset_dir, hg_asns, asn_to_hg, on_nets_dir, suffixes, out_dir):
+    discr_counter = 0
     for dir, _, files in os.walk(dataset_dir):
         if files != []:
             temp = dir.split("/")[-1]
@@ -118,28 +119,36 @@ def off_nets(dataset_dir, hg_asns, asn_to_hg, on_nets_dir, suffixes, out_dir):
                                             is_on_net = True
 
                                     if not is_on_net:
+                                        dns_match = True
                                         for dns in dns_list:
+                                            dns_match2 = True
                                             stript_dns = calc_TLD_plus_one(
                                                 dns, suffixes)
                                             if stript_dns not in dns_to_hg[hg_kw]:
-                                                continue
+                                                dns_match = False
+                                                dns_match2 = False
 
-                                        to_write = {
-                                            "ip": ip,
-                                            "asn": asn,
-                                            "dns_names": dns_list,
-                                            "org": org
-                                        }
-                                        hg_files[hg_kw].write(
-                                            json.dumps(to_write)+"\n")
+                                        if dns_match != dns_match2:
+                                            discr_counter += 1
+
+                                        if dns_match:
+                                            to_write = {
+                                                "ip": ip,
+                                                "asn": asn,
+                                                "dns_names": dns_list,
+                                                "org": org
+                                            }
+                                            hg_files[hg_kw].write(
+                                                json.dumps(to_write)+"\n")
 
             for file in hg_files:
                 hg_files[file].close()
+    print("Number of discrapancy : ", discr_counter)
 
 
 if __name__ == "__main__":
     censys_formatted_dir = "../Dataset-ignore/censys_formatted/"
-    out_dir = "../Dataset-ignore/output/off_nets/"
+    out_dir = "../Dataset-ignore/output/off_nets_my_way/"
     hg_asns_file = "../Dataset-samples/HG_asns.json"
     asn_to_hg_file = "../Dataset-samples/asn_to_kw2.json"
     suffixes_file = "../Dataset-samples/suffixes.txt"
