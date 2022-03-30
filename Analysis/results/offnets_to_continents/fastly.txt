@@ -1,0 +1,19 @@
+EU: 1 ASes
+AF: 0 ASes
+SA: 0 ASes
+AS: 5 ASes
+NA: 11 ASes
+OC: 0 ASes
+# # #
+EU: AS24940 
+- - - 
+AF:  
+- - - 
+SA:  
+- - - 
+AS: AS45102, AS63997, AS9312, AS4637, AS24282 
+- - - 
+NA: AS63949, AS36351, AS32097, AS31898, AS16509, AS14618, AS19527, AS15169, AS25820, AS8100, AS20473 
+- - - 
+OC:  
+- - - 

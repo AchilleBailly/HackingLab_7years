@@ -1,0 +1,19 @@
+EU: 0 ASes
+AF: 0 ASes
+SA: 0 ASes
+AS: 0 ASes
+NA: 0 ASes
+OC: 0 ASes
+# # #
+EU:  
+- - - 
+AF:  
+- - - 
+SA:  
+- - - 
+AS:  
+- - - 
+NA:  
+- - - 
+OC:  
+- - - 

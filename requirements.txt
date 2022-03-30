@@ -1,0 +1,5 @@
+openpyxl
+pytricia
+numpy
+pandas
+anytree

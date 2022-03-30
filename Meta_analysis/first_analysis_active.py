@@ -6,7 +6,7 @@ import numpy as np
 
 
 if __name__ == "__main__":
-    off_nets_folder = "../Dataset-ignore/output/off_nets_my_way/"
+    off_nets_folder = "/media/gerben/Seagate/Study/hacking_lab/HackingLab_7years/Analysis/results/candidate_off-nets_good/"
     excel_file_name = "Results.xlsx"
 
     per_timestamp = dict()
