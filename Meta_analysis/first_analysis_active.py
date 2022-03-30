@@ -41,7 +41,7 @@ if __name__ == "__main__":
 
     res = pandas.DataFrame.from_dict(per_timestamp)
 
-    res_count = pandas.DataFrame.from_dict(per_timestamp_count)
+    res_count = pandas.DataFrame.from_dict(per_timestamp_count, mode='a')
 
     with pandas.ExcelWriter(excel_file_name) as writer:
         res.to_excel(writer, sheet_name="List of ASNs Active")
