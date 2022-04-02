@@ -6,8 +6,8 @@ import numpy as np
 
 
 if __name__ == "__main__":
-    off_nets_folder = "../Dataset-ignore/output/off_nets_my_way/"
-    excel_file_name = "Results.xlsx"
+    off_nets_folder = "../Dataset-ignore/output/off_nets_my_way2/"
+    excel_file_name = "Results2.xlsx"
 
     per_timestamp = dict()
 

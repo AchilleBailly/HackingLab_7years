@@ -82,7 +82,7 @@ def extract_fingerprint(on_net_dir, suffixes):
     return dns_to_hg
 
 
-def off_nets(dataset_dir, hg_asns, asn_to_hg, on_nets_dir, suffixes, out_dir):
+def off_nets(dataset_dir, on_nets_dir, asn_to_kw_dir, asn_to_kw_filename, hg_asns_dir, hg_asns_filename, suffixes, out_dir):
     discr_counter = 0
     for dir, _, files in os.walk(dataset_dir):
         if files != []:
@@ -91,6 +91,12 @@ def off_nets(dataset_dir, hg_asns, asn_to_hg, on_nets_dir, suffixes, out_dir):
                 os.makedirs(out_dir+temp)
 
             dns_to_hg = extract_fingerprint(on_nets_dir+temp, suffixes)
+
+            with open(hg_asns_dir+temp+"/"+hg_asns_filename, "rt") as file:
+                hg_asns = json.load(file)
+
+            with open(asn_to_kw_dir+temp+"/"+asn_to_kw_filename, "rt") as file:
+                asn_to_hg = json.load(file)
 
             hg_files = dict()
             for hg in hg_asns:
@@ -148,18 +154,17 @@ def off_nets(dataset_dir, hg_asns, asn_to_hg, on_nets_dir, suffixes, out_dir):
 
 if __name__ == "__main__":
     censys_formatted_dir = "../Dataset-ignore/censys_formatted/"
-    out_dir = "../Dataset-ignore/output/off_nets_my_way/"
-    hg_asns_file = "../Dataset-samples/HG_asns.json"
-    asn_to_hg_file = "../Dataset-samples/asn_to_kw2.json"
+    out_dir = "../Dataset-ignore/output/off_nets_my_way2/"
     suffixes_file = "../Dataset-samples/suffixes.txt"
-    on_nets_dir = "../Dataset-ignore/output/censys_onnets/"
+    on_nets_dir = "../Dataset-ignore/output/censys_onnets2/"
+
+    hg_asns_dir = "../Dataset-samples/HG_asns/"
+    asn_to_kw_dir = "../Dataset-samples/asn_to_kw/"
+
+    hg_asns_filename = "hg_asns.json"
+    asn_to_kw_filename = "asn_to_kw.json"
 
     suffixes = load_tld_suffixes(suffixes_file)
-    with open(hg_asns_file, "rt") as file:
-        hg_asns = json.load(file)
 
-    with open(asn_to_hg_file, "rt") as file:
-        asn_to_hg = json.load(file)
-
-    off_nets(censys_formatted_dir, hg_asns, asn_to_hg,
-             on_nets_dir, suffixes, out_dir)
+    off_nets(censys_formatted_dir, on_nets_dir, asn_to_kw_dir,
+             asn_to_kw_filename, hg_asns_dir, hg_asns_filename, suffixes, out_dir)

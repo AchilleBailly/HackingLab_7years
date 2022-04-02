@@ -4,11 +4,57 @@ import os
 import json
 from asn_to_HG_keyword import *
 from HG_asns import *
-import pytricia
 from utils import load_ip_to_as_mapping
 
 
-def write_HG_certs(dataset_dir, out_dir, asn_to_kw, hg_asns):
+def create_hg_asns(asns_dir, out_dir, output_filename, hg_list):
+    if asns_dir[-1] != "/":
+        asns_dir += "/"
+
+    if out_dir[-1] != "/":
+        out_dir += "/"
+
+    for dir, _, files in os.walk(asns_dir):
+        if files != []:
+            temp = dir.split("/")[-1]
+            if not os.path.exists(out_dir+temp):
+                os.makedirs(out_dir+temp)
+
+            for filename in files:
+                HG_asns(dir+"/"+filename, out_dir+temp +
+                        "/"+output_filename, hg_list)
+
+
+def creat_asn2kw(hg_asns_dir, out_dir, output_filename):
+    if hg_asns_dir[-1] != "/":
+        hg_asns_dir += "/"
+
+    if out_dir[-1] != "/":
+        out_dir += "/"
+
+    for dir, _, files in os.walk(hg_asns_dir):
+        if files != []:
+            temp = dir.split("/")[-1]
+            if not os.path.exists(out_dir+temp):
+                os.makedirs(out_dir+temp)
+
+            for filename in files:
+                asn_to_kw(dir+"/"+filename, out_dir+temp+"/"+output_filename)
+
+
+def write_HG_certs(dataset_dir, out_dir, asn_to_kw_dir, asn_to_kw_filename, hg_asns_dir, hg_asns_filename):
+    if hg_asns_dir[-1] != "/":
+        hg_asns_dir += "/"
+
+    if out_dir[-1] != "/":
+        out_dir += "/"
+
+    if asn_to_kw_dir[-1] != "/":
+        asn_to_kw_dir += "/"
+
+    if hg_asns_dir[-1] != "/":
+        hg_asns_dir += "/"
+
     for dir, _, files in os.walk(dataset_dir):
         if files != []:
             temp = dir.split("/")[-1]
@@ -16,6 +62,12 @@ def write_HG_certs(dataset_dir, out_dir, asn_to_kw, hg_asns):
                 os.makedirs(out_dir+temp)
 
             hg_files = dict()
+            with open(hg_asns_dir+temp+"/"+hg_asns_filename, "rt") as file:
+                hg_asns = json.load(file)
+
+            with open(asn_to_kw_dir+temp+"/"+asn_to_kw_filename, "rt") as file:
+                asn_to_kw = json.load(file)
+
             for hg in hg_asns:
                 hg_files[hg.lower()] = open(
                     out_dir+temp+"/"+hg.lower()+".txt", "wt")
@@ -53,12 +105,15 @@ def write_HG_certs(dataset_dir, out_dir, asn_to_kw, hg_asns):
 
 if __name__ == "__main__":
     # filenames to configure
-    HG_asns_filename = "../Dataset-samples/HG_asns.json"
-    asn_to_kw_filename = "../Dataset-samples/asn_to_kw2.json"
-    asns_file = "../Dataset-samples/20210101.as-org2info.jsonl"
+    asns_dir = "../Dataset-samples/caida"
+    hg_asns_dir = "../Dataset-samples/HG_asns/"
+    asn_to_kw_dir = "../Dataset-samples/asn_to_kw"
+
+    hg_asns_filename = "hg_asns.json"
+    asn_to_kw_filename = "asn_to_kw.json"
 
     certs_fles_folder = "../Dataset-ignore/censys_formatted/"
-    output_dir = "../Dataset-ignore/output/censys_onnets/"
+    output_dir = "../Dataset-ignore/output/censys_onnets2/"
 
     HG_kw_list = [
         "google",
@@ -84,8 +139,9 @@ if __name__ == "__main__":
         "fastly"
     ]
 
-    hg_asns = get_HG_asns(asns_file, HG_asns_filename, HG_kw_list)
+    create_hg_asns(asns_dir, hg_asns_dir, hg_asns_filename, HG_kw_list)
 
-    asn_to_kw = get_asn_to_kw(HG_asns_filename, asn_to_kw_filename)
+    creat_asn2kw(hg_asns_dir, asn_to_kw_dir, asn_to_kw_filename)
 
-    write_HG_certs(certs_fles_folder, output_dir, asn_to_kw, hg_asns)
+    write_HG_certs(certs_fles_folder, output_dir, asn_to_kw_dir,
+                   asn_to_kw_filename, hg_asns_dir, hg_asns_filename)
