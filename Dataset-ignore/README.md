@@ -1,1 +1,0 @@
-This folder should contain the big dataset that we don't want to upload to GitHub

@@ -1,9 +1,9 @@
-/Dataset-ignore/*
-!/Dataset-ignore/README.md
+/datasets_censys/Dataset-ignore/*
+!/datasets_censys/Dataset-ignore/README.md
 *.pyc
-/datasets/tls_scans/*
-/datasets/ip_to_as/*
-/datasets/as_to_organization_info/*
+/datasets_active_scan/tls_scans/*
+/datasets_active_scan/ip_to_as/*
+/datasets_active_scan/as_to_organization_info/*
 /Analysis/results/*
 .ipynb_checkpoints
 .xlsx

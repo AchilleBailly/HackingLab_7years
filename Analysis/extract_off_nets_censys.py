@@ -137,7 +137,7 @@ def off_nets(dataset_dir, on_nets_dir, asn_to_kw_dir, asn_to_kw_filename, hg_asn
                                         if dns_match != dns_match2:
                                             discr_counter += 1
 
-                                        if dns_match:
+                                        if dns_match2:
                                             to_write = {
                                                 "ip": ip,
                                                 "asn": asn,
@@ -154,7 +154,7 @@ def off_nets(dataset_dir, on_nets_dir, asn_to_kw_dir, asn_to_kw_filename, hg_asn
 
 if __name__ == "__main__":
     censys_formatted_dir = "../Dataset-ignore/censys_formatted/"
-    out_dir = "../Dataset-ignore/output/off_nets_my_way2/"
+    out_dir = "../Dataset-ignore/output/off_nets_their_way/"
     suffixes_file = "../Dataset-samples/suffixes.txt"
     on_nets_dir = "../Dataset-ignore/output/censys_onnets2/"
 
