@@ -6,4 +6,6 @@
 /datasets/as_to_organization_info/*
 /Analysis/results/*
 .ipynb_checkpoints
+.xlsx
+.png
 
