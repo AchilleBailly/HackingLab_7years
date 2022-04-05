@@ -16,7 +16,7 @@ def load_ip_to_as_mapping(filename):
     return pyt
 
 
-# Load and the config file
+# Load the config file containing hypergiants keywords
 def load_config_file(configFile):
     hg_keyword_to_hg_ases_key = dict()
     try:
@@ -29,7 +29,7 @@ def load_config_file(configFile):
         return None
     return hg_keyword_to_hg_ases_key
 
-
+# Load asns of hypergiants
 def load_hypergiant_ases(filename):
     hg_ases = dict()
     try: 
@@ -43,7 +43,7 @@ def load_hypergiant_ases(filename):
 
     return hg_ases
 
-
+# Map ASN to hypergiant 
 def process_configuration_file(configuration_input, hg_ases):
     # Check if for all keywords, a hypergiant-ases-key in the hypergiant ASes file.
     for input_ in configuration_input:  

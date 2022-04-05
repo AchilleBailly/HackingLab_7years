@@ -1,0 +1,278 @@
+{"ip": "209.237.220.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.204.132", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.166.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.11", "ASN": 13414, "dns_names": ["upload.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.150.18", "ASN": 13414, "dns_names": ["*.twimg.com", "twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.1", "ASN": 13414, "dns_names": ["twitter.com", "www.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.2", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.209.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.75", "ASN": 13414, "dns_names": ["t.co", "www.t.co"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.40", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "192.133.76.240", "ASN": 13414, "dns_names": ["vpn.twttr.com", "brandsafety-lab.vpn.twttr.com", "brandsafety.vpn.twttr.com", "adspy-lab.vpn.twttr.com", "adspy.vpn.twttr.com", "ap.vpn.twttr.com", "ap-lab.vpn.twttr.com", "art-lab.vpn.twttr.com", "art.vpn.twttr.com", "atlc-lab.vpn.twttr.com", "birdseye-lab.vpn.twttr.com", "birdseye.vpn.twttr.com", "idm-lab.vpn.twttr.com", "idm.vpn.twttr.com", "obv-atla.vpn.twttr.com", "obv-smf1.vpn.twttr.com", "pipelinedash.vpn.twttr.com", "planner-lab.vpn.twttr.com", "planner.vpn.twttr.com", "portfolio-lab.vpn.twttr.com", "portfolio.vpn.twttr.com", "roster-lab.vpn.twttr.com", "roster.vpn.twttr.com", "semantic-lab.vpn.twttr.com", "semantic.vpn.twttr.com", "smfc-lab.vpn.twttr.com", "tableau-lab.vpn.twttr.com", "tableau.vpn.twttr.com", "vpn.atlc.twttr.com", "vpn.smfc.twttr.com", "vpn1.atlc.twttr.com", "vpn1.smfc.twttr.com", "vpn2.atlc.twttr.com", "vpn2.smfc.twttr.com", "vpn2.twttr.com", "flightplan-lab.vpn.twttr.com", "flightplan.vpn.twttr.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.88", "ASN": 13414, "dns_names": ["*.twimg.com", "twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.205.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.150.46", "ASN": 13414, "dns_names": ["syndication.twitter.com", "cdn.syndication.twitter.com", "syndication-o.twitter.com", "syndication.twimg.com", "cdn.syndication.twimg.com", "syndication-o.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.150.44", "ASN": 13414, "dns_names": ["t.co", "www.t.co"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.190.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.202", "ASN": 13414, "dns_names": ["twitter.org", "twiter.com", "twitter.fr", "twitter.jp", "twittter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.16", "ASN": 13414, "dns_names": ["maven.twttr.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.149.204", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.230", "ASN": 13414, "dns_names": ["twitter.com", "www.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.129", "ASN": 13414, "dns_names": ["twitter.com", "www.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.75", "ASN": 13414, "dns_names": ["upload.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.133", "ASN": 13414, "dns_names": ["t.co", "www.t.co"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.22", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.182.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.140", "ASN": 13414, "dns_names": ["ton.twitter.com", "tw-ton.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.77", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.12", "ASN": 13414, "dns_names": ["t.co", "www.t.co"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.125", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.150", "ASN": 13414, "dns_names": ["ton.twitter.com", "tw-ton.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.9", "ASN": 13414, "dns_names": ["*.twimg.com", "twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.105", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.236", "ASN": 13414, "dns_names": ["r.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.199", "ASN": 13414, "dns_names": ["support.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.160.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.36", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.172.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.22", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.73", "ASN": 13414, "dns_names": ["*.twimg.com", "twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.7", "ASN": 13414, "dns_names": ["support.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.186.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.237", "ASN": 13414, "dns_names": ["support.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.191.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.1", "ASN": 13414, "dns_names": ["twitter.com", "www.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.42", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.251", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.150.9", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.204.131", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.153", "ASN": 13414, "dns_names": ["support.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.3", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.212", "ASN": 13414, "dns_names": ["ton.twitter.com", "tw-ton.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.187.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.79", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.199", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.12", "ASN": 13414, "dns_names": ["support.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.8", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.76", "ASN": 13414, "dns_names": ["t.lv.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.79", "ASN": 13414, "dns_names": ["blog.twtrinc.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.241", "ASN": 13414, "dns_names": ["syndication.twitter.com", "cdn.syndication.twitter.com", "syndication-o.twitter.com", "syndication.twimg.com", "cdn.syndication.twimg.com", "syndication-o.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.84", "ASN": 13414, "dns_names": ["ton.twitter.com", "tw-ton.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.107", "ASN": 13414, "dns_names": ["mobile.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.204.130", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.246", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.149.233", "ASN": 13414, "dns_names": ["syndication.twitter.com", "cdn.syndication.twitter.com", "syndication-o.twitter.com", "syndication.twimg.com", "cdn.syndication.twimg.com", "syndication-o.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.149.198", "ASN": 13414, "dns_names": ["twitter.com", "www.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.149.231", "ASN": 13414, "dns_names": ["tweetdeck.twitter.com", "tweetdeck.com", "www.tweetdeck.com", "web.tweetdeck.com", "api.tweetdeck.com", "downloads.tweetdeck.com", "tdapi.twitter.com", "td.twitter.com", "blog.tweetdeck.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.150.40", "ASN": 13414, "dns_names": ["tweetdeck.twitter.com", "tweetdeck.com", "www.tweetdeck.com", "web.tweetdeck.com", "api.tweetdeck.com", "downloads.tweetdeck.com", "tdapi.twitter.com", "td.twitter.com", "blog.tweetdeck.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.135", "ASN": 13414, "dns_names": ["support.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.150.41", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.65", "ASN": 13414, "dns_names": ["twitter.com", "www.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.171.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.52", "ASN": 13414, "dns_names": ["syndication.twitter.com", "cdn.syndication.twitter.com", "syndication-o.twitter.com", "syndication.twimg.com", "cdn.syndication.twimg.com", "syndication-o.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.207", "ASN": 13414, "dns_names": ["first-tweets.com", "www.first-tweets.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.207.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.148", "ASN": 13414, "dns_names": ["upload.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.96", "ASN": 13414, "dns_names": ["mobile.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.5", "ASN": 13414, "dns_names": ["t.co", "www.t.co"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.169.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.247", "ASN": 13414, "dns_names": ["upload.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.244", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.71", "ASN": 13414, "dns_names": ["twitter.com", "www.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.140", "ASN": 13414, "dns_names": ["t.lv.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.221.131", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.204.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.147", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.124", "ASN": 13414, "dns_names": ["blog.twtrinc.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.33", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.192.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.149.207", "ASN": 13414, "dns_names": ["*.twimg.com", "twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.117", "ASN": 13414, "dns_names": ["upload.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.246", "ASN": 13414, "dns_names": ["*.twimg.com", "twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.222.131", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.72", "ASN": 13414, "dns_names": ["syndication.twitter.com", "syndication.twimg.com", "cdn.syndication.twitter.com", "cdn.syndication.twimg.com", "syndication-o.twitter.com", "syndication-o.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.250", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.25", "ASN": 13414, "dns_names": ["*.twimg.com", "twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.37", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.197", "ASN": 13414, "dns_names": ["t.co", "www.t.co"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.4", "ASN": 13414, "dns_names": ["tweetdeck.com", "tdweb.twitter.com", "api.tweetdeck.com", "downloads.tweetdeck.com", "tweetdeck.twitter.com", "web.tweetdeck.com", "www.tweetdeck.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.157.106", "ASN": 13414, "dns_names": ["blog.twtrinc.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.150.10", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.53", "ASN": 13414, "dns_names": ["twitter.com", "www.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.149.199", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.67", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.231", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.9", "ASN": 13414, "dns_names": ["*.twimg.com", "twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.208", "ASN": 13414, "dns_names": ["upload.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.175.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.255", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.222.130", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.179.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.203", "ASN": 13414, "dns_names": ["upload.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.87", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.21", "ASN": 13414, "dns_names": ["syndication.twitter.com", "cdn.syndication.twitter.com", "syndication-o.twitter.com", "syndication.twimg.com", "cdn.syndication.twimg.com", "syndication-o.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.149.221", "ASN": 13414, "dns_names": ["first-tweets.com", "www.first-tweets.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.198", "ASN": 13414, "dns_names": ["ton.twitter.com", "tw-ton.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.188.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.66", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.198", "ASN": 13414, "dns_names": ["twitter.com", "www.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.195.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.7", "ASN": 13414, "dns_names": ["support.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.105", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.213", "ASN": 13414, "dns_names": ["upload.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.216.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.178.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.102", "ASN": 13414, "dns_names": ["twitter.com", "www.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.194.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.148", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.70", "ASN": 13414, "dns_names": ["twitter.com", "www.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.185.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.195", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.208.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.34", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.149.208", "ASN": 13414, "dns_names": ["maven.twttr.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.150", "ASN": 13414, "dns_names": ["t.co", "www.t.co"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.137", "ASN": 13414, "dns_names": ["*.twimg.com", "twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.249", "ASN": 13414, "dns_names": ["ton.twitter.com", "tw-ton.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.163.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.221.132", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.73", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.40", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.26", "ASN": 13414, "dns_names": ["upload.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.198.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.5", "ASN": 13414, "dns_names": ["t.co", "www.t.co"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.6", "ASN": 13414, "dns_names": ["mobile.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.3", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.201", "ASN": 13414, "dns_names": ["*.twimg.com", "twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.232", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.12", "ASN": 13414, "dns_names": ["t.lv.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.150.11", "ASN": 13414, "dns_names": ["syndication.twitter.com", "cdn.syndication.twitter.com", "syndication-o.twitter.com", "syndication.twimg.com", "cdn.syndication.twimg.com", "syndication-o.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.206", "ASN": 13414, "dns_names": ["support.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.41", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.110", "ASN": 13414, "dns_names": ["twitter.org", "twiter.com", "twitter.fr", "twitter.jp", "twittter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.149.201", "ASN": 13414, "dns_names": ["syndication.twitter.com", "cdn.syndication.twitter.com", "syndication-o.twitter.com", "syndication.twimg.com", "cdn.syndication.twimg.com", "syndication-o.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.74", "ASN": 13414, "dns_names": ["upload.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.8", "ASN": 13414, "dns_names": ["syndication.twitter.com", "syndication.twimg.com", "cdn.syndication.twitter.com", "cdn.syndication.twimg.com", "syndication-o.twitter.com", "syndication-o.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.71", "ASN": 13414, "dns_names": ["support.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.82", "ASN": 13414, "dns_names": ["twitter.com", "www.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.149.202", "ASN": 13414, "dns_names": ["mobile.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.130", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.218.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.249", "ASN": 13414, "dns_names": ["t.lv.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.199.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.206.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.125", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.72", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.204", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.89", "ASN": 13414, "dns_names": ["maven.twttr.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.150.15", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.221.130", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.193", "ASN": 13414, "dns_names": ["twitter.com", "www.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.104", "ASN": 13414, "dns_names": ["twitter.com", "www.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.150.20", "ASN": 13414, "dns_names": ["blog.twtrinc.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.253", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.150.12", "ASN": 13414, "dns_names": ["r.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.8", "ASN": 13414, "dns_names": ["syndication.twitter.com", "cdn.syndication.twitter.com", "syndication-o.twitter.com", "syndication.twimg.com", "cdn.syndication.twimg.com", "syndication-o.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.131", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.198", "ASN": 13414, "dns_names": ["mobile.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.150.43", "ASN": 13414, "dns_names": ["r.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.150.42", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.43", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.39", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.84", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.77", "ASN": 13414, "dns_names": ["twitter.org", "twiter.com", "twitter.fr", "twitter.jp", "twittter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.149.243", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.149.232", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.193.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.11", "ASN": 13414, "dns_names": ["t.co", "www.t.co"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.11", "ASN": 13414, "dns_names": ["upload.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.126", "ASN": 13414, "dns_names": ["*.twimg.com", "twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.45", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.85", "ASN": 13414, "dns_names": ["syndication.twitter.com", "cdn.syndication.twitter.com", "syndication-o.twitter.com", "syndication.twimg.com", "cdn.syndication.twimg.com", "syndication-o.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.23", "ASN": 13414, "dns_names": ["syndication.twitter.com", "cdn.syndication.twitter.com", "syndication-o.twitter.com", "syndication.twimg.com", "cdn.syndication.twimg.com", "syndication-o.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.151", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.75", "ASN": 13414, "dns_names": ["*.twimg.com", "twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.70", "ASN": 13414, "dns_names": ["mobile.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.68", "ASN": 13414, "dns_names": ["tweetdeck.com", "tdweb.twitter.com", "api.tweetdeck.com", "downloads.tweetdeck.com", "tweetdeck.twitter.com", "web.tweetdeck.com", "www.tweetdeck.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.157.105", "ASN": 13414, "dns_names": ["syndication.twitter.com", "cdn.syndication.twitter.com", "syndication-o.twitter.com", "syndication.twimg.com", "cdn.syndication.twimg.com", "syndication-o.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.136", "ASN": 13414, "dns_names": ["syndication.twitter.com", "syndication.twimg.com", "cdn.syndication.twitter.com", "cdn.syndication.twimg.com", "syndication-o.twitter.com", "syndication-o.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.184.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.213.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "192.133.76.241", "ASN": 13414, "dns_names": ["vpn.twttr.com", "brandsafety-lab.vpn.twttr.com", "brandsafety.vpn.twttr.com", "adspy-lab.vpn.twttr.com", "adspy.vpn.twttr.com", "ap.vpn.twttr.com", "ap-lab.vpn.twttr.com", "art-lab.vpn.twttr.com", "art.vpn.twttr.com", "atlc-lab.vpn.twttr.com", "birdseye-lab.vpn.twttr.com", "birdseye.vpn.twttr.com", "idm-lab.vpn.twttr.com", "idm.vpn.twttr.com", "obv-atla.vpn.twttr.com", "obv-smf1.vpn.twttr.com", "pipelinedash.vpn.twttr.com", "planner-lab.vpn.twttr.com", "planner.vpn.twttr.com", "portfolio-lab.vpn.twttr.com", "portfolio.vpn.twttr.com", "roster-lab.vpn.twttr.com", "roster.vpn.twttr.com", "semantic-lab.vpn.twttr.com", "semantic.vpn.twttr.com", "smfc-lab.vpn.twttr.com", "tableau-lab.vpn.twttr.com", "tableau.vpn.twttr.com", "vpn.atlc.twttr.com", "vpn.smfc.twttr.com", "vpn1.atlc.twttr.com", "vpn1.smfc.twttr.com", "vpn2.atlc.twttr.com", "vpn2.smfc.twttr.com", "vpn2.twttr.com", "flightplan-lab.vpn.twttr.com", "flightplan.vpn.twttr.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.200", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.10", "ASN": 13414, "dns_names": ["twitter.com", "www.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.217.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.2", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.71", "ASN": 13414, "dns_names": ["tweetdeck.twitter.com", "tweetdeck.com", "www.tweetdeck.com", "web.tweetdeck.com", "api.tweetdeck.com", "downloads.tweetdeck.com", "tdapi.twitter.com", "td.twitter.com", "blog.tweetdeck.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.220", "ASN": 13414, "dns_names": ["*.twimg.com", "twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.150.7", "ASN": 13414, "dns_names": ["twitter.com", "www.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.211.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.122", "ASN": 13414, "dns_names": ["ton.twitter.com", "tw-ton.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.221.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.134", "ASN": 13414, "dns_names": ["mobile.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.212.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.196.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.11", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.200", "ASN": 13414, "dns_names": ["syndication.twitter.com", "syndication.twimg.com", "cdn.syndication.twitter.com", "cdn.syndication.twimg.com", "syndication-o.twitter.com", "syndication-o.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.247", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.146", "ASN": 13414, "dns_names": ["twitter.com", "www.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.245", "ASN": 13414, "dns_names": ["maven.twttr.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.222.132", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.72", "ASN": 13414, "dns_names": ["t.lv.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.150.8", "ASN": 13414, "dns_names": ["tweetdeck.twitter.com", "tweetdeck.com", "www.tweetdeck.com", "web.tweetdeck.com", "api.tweetdeck.com", "downloads.tweetdeck.com", "tdapi.twitter.com", "td.twitter.com", "blog.tweetdeck.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.149", "ASN": 13414, "dns_names": ["tweetdeck.twitter.com", "tweetdeck.com", "www.tweetdeck.com", "web.tweetdeck.com", "api.tweetdeck.com", "downloads.tweetdeck.com", "tdapi.twitter.com", "td.twitter.com", "blog.tweetdeck.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.162.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.73", "ASN": 13414, "dns_names": ["mobile.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.21", "ASN": 13414, "dns_names": ["tweetdeck.twitter.com", "tweetdeck.com", "www.tweetdeck.com", "web.tweetdeck.com", "api.tweetdeck.com", "downloads.tweetdeck.com", "tdapi.twitter.com", "td.twitter.com", "blog.tweetdeck.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.219.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.177.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.168.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.157.80", "ASN": 13414, "dns_names": ["pay.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.104", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.39", "ASN": 13414, "dns_names": ["tweetdeck.twitter.com", "tweetdeck.com", "www.tweetdeck.com", "web.tweetdeck.com", "api.tweetdeck.com", "downloads.tweetdeck.com", "tdapi.twitter.com", "td.twitter.com", "blog.tweetdeck.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.210.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.222.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.86", "ASN": 13414, "dns_names": ["twitter.org", "twiter.com", "twitter.fr", "twitter.jp", "twittter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.4", "ASN": 13414, "dns_names": ["tweetdeck.twitter.com", "tweetdeck.com", "www.tweetdeck.com", "web.tweetdeck.com", "api.tweetdeck.com", "downloads.tweetdeck.com", "tdapi.twitter.com", "td.twitter.com", "blog.tweetdeck.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.58", "ASN": 13414, "dns_names": ["ton.twitter.com", "tw-ton.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.69", "ASN": 13414, "dns_names": ["t.co", "www.t.co"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.148", "ASN": 13414, "dns_names": ["ton.twitter.com", "tw-ton.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.92", "ASN": 13414, "dns_names": ["tweetdeck.twitter.com", "tweetdeck.com", "www.tweetdeck.com", "web.tweetdeck.com", "api.tweetdeck.com", "downloads.tweetdeck.com", "tdapi.twitter.com", "td.twitter.com", "blog.tweetdeck.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.18", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.35", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.214.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.24", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.215.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.74", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.249", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.43", "ASN": 13414, "dns_names": ["mobile.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.214", "ASN": 13414, "dns_names": ["r.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.254", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.176.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.201", "ASN": 13414, "dns_names": ["syndication.twitter.com", "cdn.syndication.twitter.com", "syndication-o.twitter.com", "syndication.twimg.com", "cdn.syndication.twimg.com", "syndication-o.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.103", "ASN": 13414, "dns_names": ["tweetdeck.twitter.com", "tweetdeck.com", "www.tweetdeck.com", "web.tweetdeck.com", "api.tweetdeck.com", "downloads.tweetdeck.com", "tdapi.twitter.com", "td.twitter.com", "blog.tweetdeck.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.204", "ASN": 13414, "dns_names": ["t.lv.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.149.210", "ASN": 13414, "dns_names": ["upload.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.139", "ASN": 13414, "dns_names": ["upload.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.181.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.149.200", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.120", "ASN": 13414, "dns_names": ["syndication.twitter.com", "cdn.syndication.twitter.com", "syndication-o.twitter.com", "syndication.twimg.com", "cdn.syndication.twimg.com", "syndication-o.twimg.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "209.237.200.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.56", "ASN": 13414, "dns_names": ["mobile.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.194", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.196", "ASN": 13414, "dns_names": ["tweetdeck.com", "tdweb.twitter.com", "api.tweetdeck.com", "downloads.tweetdeck.com", "tweetdeck.twitter.com", "web.tweetdeck.com", "www.tweetdeck.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.174.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.189.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.9", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.41", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.180.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.76", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.61", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.6", "ASN": 13414, "dns_names": ["mobile.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.129", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.59.148.20", "ASN": 13414, "dns_names": ["api.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "69.195.164.128", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.132", "ASN": 13414, "dns_names": ["tweetdeck.com", "tdweb.twitter.com", "api.tweetdeck.com", "downloads.tweetdeck.com", "tweetdeck.twitter.com", "web.tweetdeck.com", "www.tweetdeck.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.45.248", "ASN": 13414, "dns_names": ["*.twitter.com", "twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "104.244.42.20", "ASN": 13414, "dns_names": ["ton.twitter.com", "tw-ton.twitter.com"], "subject:organization": "twitter, inc.twitter, inc. "}
+{"ip": "199.16.156.7", "ASN": 13414, "dns_names": ["tweetdeck.twitter.com", "tweetdeck.com", "www.tweetdeck.com", "web.tweetdeck.com", "api.tweetdeck.com", "downloads.tweetdeck.com", "tdapi.twitter.com", "td.twitter.com", "blog.tweetdeck.com"], "subject:organization": "twitter, inc.twitter, inc. "}

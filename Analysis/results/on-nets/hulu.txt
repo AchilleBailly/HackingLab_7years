@@ -1,0 +1,27 @@
+{"ip": "199.200.51.24", "ASN": 23286, "dns_names": ["signup-smoke.hulu.com", "www.signup-smoke.hulu.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.32", "ASN": 23286, "dns_names": ["origin-metcon.huluqa.com", "www.origin-metcon.huluqa.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.104", "ASN": 23286, "dns_names": ["a.huluad.com", "www.a.huluad.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.51", "ASN": 23286, "dns_names": ["p.huluqa.com", "www.p.huluqa.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.200.51.23", "ASN": 23286, "dns_names": ["auth-apple-sso.hulu.com", "www.auth-apple-sso.hulu.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.41", "ASN": 23286, "dns_names": ["*.site-secure.huluqa.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.105", "ASN": 23286, "dns_names": ["ads.hulu.com", "www.ads.hulu.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "209.249.186.23", "ASN": 23286, "dns_names": ["auth-apple-sso.hulu.com", "www.auth-apple-sso.hulu.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.71", "ASN": 23286, "dns_names": ["metadata.hulu.com", "www.metadata.hulu.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.21", "ASN": 23286, "dns_names": ["origin-beaver.hulu.com", "www.origin-beaver.hulu.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "208.91.159.63", "ASN": 23286, "dns_names": ["fs.hulusso.com", "www.fs.hulusso.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "209.249.186.19", "ASN": 23286, "dns_names": ["tide.hulu.com", "www.tide.hulu.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "209.249.186.24", "ASN": 23286, "dns_names": ["signup-smoke.hulu.com", "www.signup-smoke.hulu.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.76", "ASN": 23286, "dns_names": ["beta.hulu.com", "www.beta.hulu.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.107", "ASN": 23286, "dns_names": ["home.huluqa.com", "dist-demo.huluqa.com", "facebook-webhooks.huluqa.com", "mozart.huluqa.com", "origin-discover.huluqa.com", "p.huluqa.com", "pt.huluqa.com", "s.huluqa.com", "tempo.huluqa.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.110", "ASN": 23286, "dns_names": ["manifest.huluqa.com", "www.manifest.huluqa.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.106", "ASN": 23286, "dns_names": ["telemetry.huluad.com", "www.telemetry.huluad.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.40", "ASN": 23286, "dns_names": ["coding.hulu.com", "www.coding.hulu.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.115", "ASN": 23286, "dns_names": ["origin-beaver.huluqa.com", "www.origin-beaver.huluqa.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.13", "ASN": 23286, "dns_names": ["hulugansupport.prod.hulu.com", "bigpanda.hulu.com", "bluescape.hulu.com", "cultureamp.hulu.com", "datadog.hulu.com", "esign.hulu.com", "experiencehulu.com", "experiencehulu.net", "experiencehulu.tv", "huluespanol.com", "hulujobs.com", "hululatino.com", "hululive.com", "hululive.net", "hululive.tv", "hululivestream.com", "hululivestream.net", "hululivestream.tv", "hulunext.com", "hulunext.net", "hulunext.tv", "huluplus.com", "huluplusradio.com", "hulusoaps.com", "hulusupport.com", "jululatino.com", "lucidchart.hulu.com", "okta.hulu.com", "smartsheet.hulu.com", "tech.hulu.com", "thenewhulu.com", "thenewhulu.net", "thenewhulu.tv", "trello.hulu.com", "tryhuluplus.com", "wweonhulu.com", "wweonhuluplus.com", "xn--huluespaol-09a.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.42", "ASN": 23286, "dns_names": ["*.site.huluqa.com", "site.huluqa.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.27", "ASN": 23286, "dns_names": ["cs.hulu.com", "www.cs.hulu.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.200.51.19", "ASN": 23286, "dns_names": ["tide.hulu.com", "www.tide.hulu.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.90", "ASN": 23286, "dns_names": ["*.site.huluqa.com", "site.huluqa.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "199.60.116.150", "ASN": 23286, "dns_names": ["origin-metcon.hulu.com", "www.origin-metcon.hulu.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "208.91.159.37", "ASN": 23286, "dns_names": ["beta.hulu.com", "www.beta.hulu.com"], "subject:organization": "hulu, llchulu, llc "}
+{"ip": "208.91.159.33", "ASN": 23286, "dns_names": ["origin-beaver.hulu.com", "www.origin-beaver.hulu.com"], "subject:organization": "hulu, llchulu, llc "}
